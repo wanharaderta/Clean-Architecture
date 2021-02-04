@@ -15,6 +15,17 @@
 		8328B8E925CBA99800CA4F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8328B8E725CBA99800CA4F0B /* LaunchScreen.storyboard */; };
 		8328B8F425CBA99800CA4F0B /* Clean_ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B8F325CBA99800CA4F0B /* Clean_ArchitectureTests.swift */; };
 		8328B8FF25CBA99800CA4F0B /* Clean_ArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B8FE25CBA99800CA4F0B /* Clean_ArchitectureUITests.swift */; };
+		8328B91325CBB80A00CA4F0B /* MessageDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B91225CBB80A00CA4F0B /* MessageDataSourceProtocol.swift */; };
+		8328B91825CBB83900CA4F0B /* MessageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B91725CBB83900CA4F0B /* MessageDataSource.swift */; };
+		8328B91D25CBB85E00CA4F0B /* MessageRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B91C25CBB85E00CA4F0B /* MessageRepositoryProtocol.swift */; };
+		8328B92225CBB89B00CA4F0B /* MessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B92125CBB89B00CA4F0B /* MessageRepository.swift */; };
+		8328B92725CBC5BC00CA4F0B /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B92625CBC5BC00CA4F0B /* MessageEntity.swift */; };
+		8328B92C25CBC5D600CA4F0B /* MessageUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B92B25CBC5D600CA4F0B /* MessageUseCase.swift */; };
+		8328B93125CBC5F600CA4F0B /* MessageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B93025CBC5F600CA4F0B /* MessageInteractor.swift */; };
+		8328B93625CBC66A00CA4F0B /* MessagePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B93525CBC66A00CA4F0B /* MessagePresenterProtocol.swift */; };
+		8328B93B25CBC68800CA4F0B /* MessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B93A25CBC68800CA4F0B /* MessagePresenter.swift */; };
+		8328B94125CBC6CF00CA4F0B /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B94025CBC6CF00CA4F0B /* Injection.swift */; };
+		8328B96E25CBDCBD00CA4F0B /* MessageUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328B96D25CBDCBD00CA4F0B /* MessageUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		8328B8FA25CBA99800CA4F0B /* Clean ArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean ArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8328B8FE25CBA99800CA4F0B /* Clean_ArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_ArchitectureUITests.swift; sourceTree = "<group>"; };
 		8328B90025CBA99800CA4F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8328B91225CBB80A00CA4F0B /* MessageDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDataSourceProtocol.swift; sourceTree = "<group>"; };
+		8328B91725CBB83900CA4F0B /* MessageDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDataSource.swift; sourceTree = "<group>"; };
+		8328B91C25CBB85E00CA4F0B /* MessageRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8328B92125CBB89B00CA4F0B /* MessageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepository.swift; sourceTree = "<group>"; };
+		8328B92625CBC5BC00CA4F0B /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		8328B92B25CBC5D600CA4F0B /* MessageUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUseCase.swift; sourceTree = "<group>"; };
+		8328B93025CBC5F600CA4F0B /* MessageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInteractor.swift; sourceTree = "<group>"; };
+		8328B93525CBC66A00CA4F0B /* MessagePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePresenterProtocol.swift; sourceTree = "<group>"; };
+		8328B93A25CBC68800CA4F0B /* MessagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePresenter.swift; sourceTree = "<group>"; };
+		8328B94025CBC6CF00CA4F0B /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		8328B96D25CBDCBD00CA4F0B /* MessageUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +121,12 @@
 		8328B8DB25CBA99500CA4F0B /* Clean Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				8328B8DC25CBA99500CA4F0B /* AppDelegate.swift */,
-				8328B8DE25CBA99500CA4F0B /* SceneDelegate.swift */,
-				8328B8E025CBA99500CA4F0B /* ViewController.swift */,
-				8328B8E225CBA99500CA4F0B /* Main.storyboard */,
-				8328B8E525CBA99800CA4F0B /* Assets.xcassets */,
-				8328B8E725CBA99800CA4F0B /* LaunchScreen.storyboard */,
-				8328B8EA25CBA99800CA4F0B /* Info.plist */,
+				8328B94925CBC77500CA4F0B /* Supporting Files */,
+				8328B94825CBC75500CA4F0B /* App */,
+				8328B93F25CBC6A100CA4F0B /* DI */,
+				8328B91125CBA9DE00CA4F0B /* Presentation */,
+				8328B91025CBA9D800CA4F0B /* Domain */,
+				8328B90F25CBA9D000CA4F0B /* Data */,
 			);
 			path = "Clean Architecture";
 			sourceTree = "<group>";
@@ -113,6 +134,7 @@
 		8328B8F225CBA99800CA4F0B /* Clean ArchitectureTests */ = {
 			isa = PBXGroup;
 			children = (
+				8328B95C25CBDC3900CA4F0B /* Domain */,
 				8328B8F325CBA99800CA4F0B /* Clean_ArchitectureTests.swift */,
 				8328B8F525CBA99800CA4F0B /* Info.plist */,
 			);
@@ -126,6 +148,73 @@
 				8328B90025CBA99800CA4F0B /* Info.plist */,
 			);
 			path = "Clean ArchitectureUITests";
+			sourceTree = "<group>";
+		};
+		8328B90F25CBA9D000CA4F0B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8328B91225CBB80A00CA4F0B /* MessageDataSourceProtocol.swift */,
+				8328B91725CBB83900CA4F0B /* MessageDataSource.swift */,
+				8328B91C25CBB85E00CA4F0B /* MessageRepositoryProtocol.swift */,
+				8328B92125CBB89B00CA4F0B /* MessageRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8328B91025CBA9D800CA4F0B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8328B92625CBC5BC00CA4F0B /* MessageEntity.swift */,
+				8328B92B25CBC5D600CA4F0B /* MessageUseCase.swift */,
+				8328B93025CBC5F600CA4F0B /* MessageInteractor.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8328B91125CBA9DE00CA4F0B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8328B8E025CBA99500CA4F0B /* ViewController.swift */,
+				8328B93525CBC66A00CA4F0B /* MessagePresenterProtocol.swift */,
+				8328B93A25CBC68800CA4F0B /* MessagePresenter.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8328B93F25CBC6A100CA4F0B /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				8328B94025CBC6CF00CA4F0B /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		8328B94825CBC75500CA4F0B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8328B8DC25CBA99500CA4F0B /* AppDelegate.swift */,
+				8328B8DE25CBA99500CA4F0B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8328B94925CBC77500CA4F0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8328B8E225CBA99500CA4F0B /* Main.storyboard */,
+				8328B8E525CBA99800CA4F0B /* Assets.xcassets */,
+				8328B8E725CBA99800CA4F0B /* LaunchScreen.storyboard */,
+				8328B8EA25CBA99800CA4F0B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8328B95C25CBDC3900CA4F0B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8328B96D25CBDCBD00CA4F0B /* MessageUseCaseTests.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +347,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8328B94125CBC6CF00CA4F0B /* Injection.swift in Sources */,
+				8328B93625CBC66A00CA4F0B /* MessagePresenterProtocol.swift in Sources */,
+				8328B93125CBC5F600CA4F0B /* MessageInteractor.swift in Sources */,
+				8328B92725CBC5BC00CA4F0B /* MessageEntity.swift in Sources */,
+				8328B91325CBB80A00CA4F0B /* MessageDataSourceProtocol.swift in Sources */,
+				8328B92C25CBC5D600CA4F0B /* MessageUseCase.swift in Sources */,
+				8328B91D25CBB85E00CA4F0B /* MessageRepositoryProtocol.swift in Sources */,
 				8328B8E125CBA99500CA4F0B /* ViewController.swift in Sources */,
 				8328B8DD25CBA99500CA4F0B /* AppDelegate.swift in Sources */,
+				8328B92225CBB89B00CA4F0B /* MessageRepository.swift in Sources */,
 				8328B8DF25CBA99500CA4F0B /* SceneDelegate.swift in Sources */,
+				8328B93B25CBC68800CA4F0B /* MessagePresenter.swift in Sources */,
+				8328B91825CBB83900CA4F0B /* MessageDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8328B8F425CBA99800CA4F0B /* Clean_ArchitectureTests.swift in Sources */,
+				8328B96E25CBDCBD00CA4F0B /* MessageUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPCX9GY2XM;
-				INFOPLIST_FILE = "Clean Architecture/Info.plist";
+				INFOPLIST_FILE = "Clean Architecture/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +557,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UPCX9GY2XM;
-				INFOPLIST_FILE = "Clean Architecture/Info.plist";
+				INFOPLIST_FILE = "Clean Architecture/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
